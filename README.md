@@ -1,7 +1,8 @@
 # mathhub
-Creating MathHub Repository for SCM Project 
+Creating MathHub Repository for SCM Project
 # Team Members Added
-Ashu
-Abhinav Tyagi
-Tammana 
-Ritik
+TEAM:-
+1.Abhinav Tyagi
+2.Ashu
+3.Tammana
+4.Ritik
