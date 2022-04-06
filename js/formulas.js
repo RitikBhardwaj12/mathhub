@@ -33,3 +33,46 @@ function factorial(){
     document.getElementById("answer").innerHTML=answer;
   }
 }
+
+
+// Function to convert Celsius to Fahrenhiet
+function CeltoFah(){
+  n= document.getElementById("input1").value
+  answer = n*9/5+32;
+  document.getElementById("answer").innerHTML=answer;
+
+}
+// Function to convert Fahrenhiet to Celsius
+function FahtoCel(){
+  n= document.getElementById("input1").value
+  answer = (n-32)*5/9;
+  document.getElementById("answer")=answer
+
+}
+//Function to Check if a number is prime or not
+function primechecker(){
+  n = document.getElementById("input1").value
+  let isPrime=true;
+
+  if (n==1){
+    document.getElementById("answer").innerHTML="1 is neither prime nor composite number."
+  }
+  else if (n > 1){
+    for (let i = 2; i<n; i++){
+      if (n%i==0){
+        isPrime = false;
+        break;
+      }
+    }
+    if (isPrime){
+      document.getElementById("answer").innerHTML=n+" is not a Prime Number."
+
+    }
+    else {
+      document.getElementById("answer").innerHTML=n+" is a Prime Number."
+    }
+  }
+  else{
+    document.getElementById("answer").innerHTML=n+" is not a Prime Number."
+  }
+}
