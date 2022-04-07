@@ -13,6 +13,10 @@ li {
  list-style: none;
 }
 
+.home-img{
+  height: 800px;
+  width: 100%;
+}
 
 /* NAVBAR STYLING STARTS */
 .navbar {
@@ -20,7 +24,7 @@ li {
  align-items: center;
  justify-content: space-between;
  padding: 20px;
- background-color: teal;
+ background-color: #A2B38B;
  color: #fff;
 }
 .nav-links a {
@@ -34,7 +38,7 @@ li {
 .menu {
  display: flex;
  gap: 1em;
- font-size: 18px;
+ font-size: 22px;
 }
 .menu li:hover {
  background-color: #4c9e9e;
@@ -69,4 +73,23 @@ li {
 }
 .services:hover .dropdown {
  display: block;
+}
+
+.tagline{
+  display: inline-block;
+  color: white;
+  font-size: 32px;
+  transform: translate(600px, 400px);
+}
+
+
+.our{
+  font-size: 25px;
+  color: white;
+}
+
+.tools{
+  padding-left: 20px;
+  padding-top: 30px;
+  padding: 20px;
 }
