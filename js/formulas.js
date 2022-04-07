@@ -2,7 +2,7 @@
 function power(){
   n = document.getElementById('input1').value
   d = document.getElementById("input2").value
-  document.getElementById("answer").innerHTML=n**b
+  document.getElementById("answer").innerHTML=n**d
 }
 
 // Function to find nth fibonacci
@@ -65,11 +65,11 @@ function primechecker(){
       }
     }
     if (isPrime){
-      document.getElementById("answer").innerHTML=n+" is not a Prime Number."
+      document.getElementById("answer").innerHTML=n+" is a Prime Number."
 
     }
     else {
-      document.getElementById("answer").innerHTML=n+" is a Prime Number."
+      document.getElementById("answer").innerHTML=n+" is not a Prime Number."
     }
   }
   else{
@@ -104,12 +104,12 @@ function determinant(){
   b=document.getElementById("input2").value
   c=document.getElementById("input3").value
   d=document.getElementById("input4").value
-  f=document.getElementById("input5").value
-  e=document.getElementById("input6").value
+  e=document.getElementById("input5").value
+  f=document.getElementById("input6").value
   g=document.getElementById("input7").value
   h=document.getElementById("input8").value
   i=document.getElementById("input9").value
 
-  answer = a*(e*i-f*h)-b*(d*i-f*g)+c*(d*h-e*g);
+  answer = (a*((e*i)-(f*h)))-(b*((d*i)-(f*g)))+(c*((d*h)-(e*g)));
   document.getElementById("answer").innerHTML=answer;
 }

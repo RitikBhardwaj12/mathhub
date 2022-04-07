@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="css\button.css">
+    <script src="js\formulas.js"></script>
   </head>
   <body>
     <label for="input1">Element at Row 1 Column 1 : </label>
@@ -24,7 +25,7 @@
     <input type="number" name="input8" value="" id="input8"> <br> <br>
     <label for="input9">Element at Row 3 Column 3 : </label>
     <input type="number" name="input9" value="" id="input9"> <br> <br>
-    <button type="button" name="button" id="btn">Calculate</button>
+    <button type="button" name="button" id="btn" onclick="determinant();">Calculate</button>
     <h2>Answer: </h2>
     <span id="answer"></span>
   </body>
